@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    line-height: normal;
+    color: #2b1b1f;
+
+background-color: #FFF5F7;
+background-image: url("pinkbg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    background: rgba(242, 138, 161, 0.45);
+    padding: 15px 0px;
+    text-align: center;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #FAD6D3;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+header{
+    background: rgba(242,138,161,0.45);
+    color: #FAD6D3;
+    padding: 60px 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+section{
+    background: rgba(250, 214, 211, 0.92);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+section h2 {
+    margin-top: 0;
+    color:#F28AA1;
+}
+footer{
+    padding: 22px 16px;
+    text-align: center;
+    background: #F6DFB3;
+    font-size: 0.9rem;
+    backdrop-filter: blur(5px);
+}
+
+.kdrama-interest-header {
+    background: rgba(242, 138, 161, 0.45);
+    color: #FAD6D3;
+    padding: 40px 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dramagrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    margin:50px auto;
+    padding: auto;
+}
+
+.drama-card {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    padding: 24px;
+    margin: 60px auto;
+    width:auto;
+    text-align: center;
+}
+
+.drama-card img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.drama-card h2 {
+    color: #F28AA1;
+    margin-bottom: 12px;
+}
+
+.drama-card p {
+    color: #2b1b1f;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.music-artist-header {
+    background: rgba(242, 138, 161, 0.45);
+    color: #FAD6D3;
+    padding: 40px 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.music-genre-header {
+    background: #FAD6D3;
+    color: #FAD6D3;
+    padding: 40px 40px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.music-card {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    padding: 24px;
+    margin: 60px auto;
+    width:auto;
+    text-align: center;
+}
+
+
+.music-card img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.music-card h2 {
+    color: #F28AA1;
+    margin-bottom: 12px;
+}
+
+.music-card p {
+    color: #2b1b1f;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.Hobby-header {
+   background: rgba(242, 138, 161, 0.45);
+    color: #FAD6D3;
+    padding: 40px 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby-card {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    padding: 24px;
+    margin: 60px auto;
+    width:auto;
+    text-align: center;
+}
+
+
+.bucket-grid {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 20px 30px 60px;
+}
+
+.bucket-card {
+    background: rgba(250, 214, 211, 0.92);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.bucket-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: #F28AA1;
+}
+
+.bucket-card p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2b1b1f;
+    line-height: 1.5;
+    font-size: 18px;
+}   
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 10px;
+}
+
+.collage img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #F28AA1;
+    border-radius: 999px;
+    margin-top: 12px;
+}
