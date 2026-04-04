@@ -80,13 +80,13 @@ footer{
     margin-right: auto;
 }
 
-.dramagrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.drama-grid {
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
     max-width: 1200px;
-    margin:50px auto;
-    padding: auto;
+    margin: 50px auto;
+    padding: 20px;
 }
 
 .drama-card {
@@ -129,7 +129,7 @@ footer{
 
 .music-genre-header {
     background: #FAD6D3;
-    color: #FAD6D3;
+    color: #2b1b1f;
     padding: 40px 40px;
     text-align: center;
     font-size: large;
@@ -191,7 +191,7 @@ footer{
 
 .bucket-grid {
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
     max-width: 1200px;
     margin:0 auto;
