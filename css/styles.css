@@ -190,10 +190,8 @@ footer{
 
 
 .bucket-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-    max-width: 1200px;
+    display: block;
+    max-width: 900px;
     margin:0 auto;
     padding: 20px 30px 60px;
 }
@@ -229,7 +227,7 @@ footer{
 
 .collage img {
     width: 100%;
-    height: 180px;
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 12px;
     display: block;
